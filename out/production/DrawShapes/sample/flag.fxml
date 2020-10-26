@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="355.0" prefWidth="473.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.flagController">
+   <children>
+      <Label layoutX="194.0" layoutY="33.0" text="Draw Flag">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="61.0" layoutY="108.0" text="length" />
+      <Label layoutX="65.0" layoutY="167.0" text="width" />
+      <Button layoutX="149.0" layoutY="237.0" mnemonicParsing="false" onAction="#getValues" text="Draw" />
+      <TextField fx:id="length" layoutX="125.0" layoutY="103.0" promptText="Give  Flag Length" />
+      <TextField fx:id="width" layoutX="125.0" layoutY="162.0" promptText="Give  Flag Width " />
+   </children>
+</AnchorPane>
